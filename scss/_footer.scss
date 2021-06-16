@@ -1,12 +1,13 @@
 /* FOOTER */
 
-@import 'base/fonts';
 @import 'base/colors';
+@import 'base/fonts';
+@import 'base/mixin';
 
 footer {
     width: 100%;
-    background-image: linear-gradient(to bottom, $bg-color-footer-2 , $bg-color-footer-1);
-    position: static;
+    background-image: linear-gradient(to bottom, nth($bg-colors, 3) , nth($bg-colors, 4));
+    position: relative;
     bottom: 0px;
     margin-top: 12px;
 
@@ -17,16 +18,28 @@ footer {
 
         a {
             text-decoration: none;
-            color: $text-color-footer;
+            text-align: center;
+            color: black;
             font-family: $principal-font;
-            font-size: 25px;
-            padding: 10px;
+            padding: 5px;
             transition: 1s;
 
-            &:hover {
-                font-size: 30px;
-                text-decoration: underline;
-                color: $text-color-footer-hover;
+            @media (min-width: 1081px) {
+                font-size: 25px;
+
+                &:hover {
+                    font-size: 30px;
+                    text-decoration: underline;
+                    color: black;
+                }
+            }
+
+            @media (min-width: 481px) and (max-width: 1080px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 480px) {
+                font-size: 15px;
             }
         }
 
@@ -36,7 +49,20 @@ footer {
 
         p {
             font-family: $secondary-font;
-            font-size: 20px;
+            text-align: center;
+
+            @media (min-width: 1081px) {
+                font-size: 20px;
+            }
+
+            @media (min-width: 481px) and (max-width: 1080px) {
+                font-size: 15px;
+            }
+
+            @media (max-width: 480px) {
+                font-size: 15px;
+            }
+            
         }
     }
 }
@@ -47,8 +73,8 @@ footer {
     height:60px;
     bottom:110px;
     right:40px;
-    background-color: $bg-color-whatsapp;
-    color: $text-color-whatsapp;
+    background-color: nth($bg-colors, 7);
+    color: white;
     border-radius:50px;
     text-align:center;
     font-size:30px;
@@ -56,8 +82,8 @@ footer {
     transition: all 2s;
 
     &:hover {
-        background-color: $bg-color-footer-1;
-        color: $text-color-footer;
+        background-color: nth($bg-colors, 4);
+        color: black;
         transform: rotate(360deg) scale(1.2);
     }
 }

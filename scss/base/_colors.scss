@@ -1,11 +1,13 @@
-/* Colors */
+/* COLORS */
 
-$bg-color-footer-1: goldenrod;
-$bg-color-footer-2: rgb(146, 110, 20);
-$bg-color-header: black;
-$bg-color-whatsapp: #25d366;
-$text-color-footer: black;
-$text-color-footer-hover: black;
-$text-color-whatsapp: white;
-$text-color-principal: white;
-$text-color-secondary: goldenrod;
+$bg-colors:
+    #000,
+    rgb(0, 0, 0, 0.6),
+    #926e14,
+    #daa520,
+    #ffd700,
+    #fff,
+    #25d366;
+
+$color-principal-text: #ffffff;
+$color-secondary-text: #daa520;
