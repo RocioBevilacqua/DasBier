@@ -21,7 +21,7 @@ footer {
             text-align: center;
             color: black;
             font-family: $principal-font;
-            padding: 5px;
+            padding: 2px;
             transition: 1s;
 
             @media (min-width: 1081px) {
@@ -39,7 +39,7 @@ footer {
             }
 
             @media (max-width: 480px) {
-                font-size: 15px;
+                font-size: 12px;
             }
         }
 
@@ -75,6 +75,7 @@ footer {
     right:40px;
     background-color: nth($bg-colors, 7);
     color: white;
+    padding-top: 8px;
     border-radius:50px;
     text-align:center;
     font-size:30px;
