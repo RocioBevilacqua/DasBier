@@ -1,1 +1,53 @@
-/* Header */
+/* HEADER */
+
+@import 'base/fonts';
+@import 'base/colors';
+
+header {
+    width: 100%;
+    background-color: $bg-color-header;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    
+    nav {
+        width: 100%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+
+            li {
+                display: flex;
+                justify-content: space-around;
+
+                a {
+                    text-decoration: none;
+                    color: $text-color-principal;
+                    font-family: $principal-font;
+                    font-size: 30px;
+                    transition: 1s;
+                    padding: 12px;
+                    
+                    &:hover {
+                        color: $text-color-secondary;
+                        font-size: 39px;
+                    }
+                    
+                    img {
+                        width: 200px;
+                        transition: 1s;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* FIN HEADER */

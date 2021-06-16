@@ -1,1 +1,65 @@
-/* Footer */
+/* FOOTER */
+
+@import 'base/fonts';
+@import 'base/colors';
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(to bottom, $bg-color-footer-2 , $bg-color-footer-1);
+    position: static;
+    bottom: 0px;
+    margin-top: 12px;
+
+    div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: $text-color-footer;
+            font-family: $principal-font;
+            font-size: 25px;
+            padding: 10px;
+            transition: 1s;
+
+            &:hover {
+                font-size: 30px;
+                text-decoration: underline;
+                color: $text-color-footer-hover;
+            }
+        }
+
+        div {
+            width: 10%;
+        }
+
+        p {
+            font-family: $secondary-font;
+            font-size: 20px;
+        }
+    }
+}
+
+.whatsapp { /* Botón de whatsapp */
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:110px;
+    right:40px;
+    background-color: $bg-color-whatsapp;
+    color: $text-color-whatsapp;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    transition: all 2s;
+
+    &:hover {
+        background-color: $bg-color-footer-1;
+        color: $text-color-footer;
+        transform: rotate(360deg) scale(1.2);
+    }
+}
+
+/* FIN FOOTER */

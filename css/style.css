@@ -1,10 +1,111 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0%;
 }
 
 /* Import */
-/* Header */
-/* Footer */
+/* HEADER */
+/* FONTS */
+/* Colors */
+header {
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li {
+  display: flex;
+  justify-content: space-around;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Germania One", cursive;
+  font-size: 30px;
+  transition: 1s;
+  padding: 12px;
+}
+header nav ul li a:hover {
+  color: goldenrod;
+  font-size: 39px;
+}
+header nav ul li a img {
+  width: 200px;
+  transition: 1s;
+}
+header nav ul li a img:hover {
+  transform: scale(1.1);
+}
+
+/* FIN HEADER */
+/* FOOTER */
+/* FONTS */
+/* Colors */
+footer {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #926e14, goldenrod);
+  position: static;
+  bottom: 0px;
+  margin-top: 12px;
+}
+footer div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer div a {
+  text-decoration: none;
+  color: black;
+  font-family: "Germania One", cursive;
+  font-size: 25px;
+  padding: 10px;
+  transition: 1s;
+}
+footer div a:hover {
+  font-size: 30px;
+  text-decoration: underline;
+  color: black;
+}
+footer div div {
+  width: 10%;
+}
+footer div p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.whatsapp {
+  /* Botón de whatsapp */
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 110px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  transition: all 2s;
+}
+.whatsapp:hover {
+  background-color: goldenrod;
+  color: black;
+  transform: rotate(360deg) scale(1.2);
+}
+
+/* FIN FOOTER */
 
 /*# sourceMappingURL=style.css.map */
