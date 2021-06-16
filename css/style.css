@@ -156,5 +156,89 @@ footer div p {
 }
 
 /* FIN FOOTER */
+/* MAIN INDEX */
+/* COLORS */
+/* FONTS */
+.index-body {
+  background-image: url("../Images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mainIndex {
+  width: 100%;
+}
+@media (min-width: 481px) {
+  .mainIndex {
+    margin-top: 250px;
+  }
+}
+.mainIndex section {
+  margin: 150px 0;
+}
+@media (min-width: 481px) {
+  .mainIndex section h1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Germania One", cursive;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .mainIndex section h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Germania One", cursive;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+}
+@media (min-width: 481px) {
+  .mainIndex section p {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: "Germania One", cursive;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .mainIndex section p {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Germania One", cursive;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+.mainIndex section .carouselDiv {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 80px;
+}
+.mainIndex section .tituloFoto {
+  color: white;
+  font-size: 40px;
+  font-family: "Germania One", cursive;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.mainIndex section .comentarioFoto {
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* FIN MAIN INDEX */
+/*HOLA*/
 
 /*# sourceMappingURL=style.css.map */
