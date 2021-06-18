@@ -4,8 +4,6 @@
 @import 'base/fonts';
 @import 'base/mixin';
 
-/* MAIN CERVECERIA */
-
 .mainCerveceria {
     width: 100%;
     margin-top: 200px;
@@ -19,17 +17,17 @@
             justify-content: center;
             align-items: center;
             display: flex;
+            flex-wrap: wrap;
             
             div {
                 width: 40%;
                 display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
                 text-align: center;
                 align-items: center;
                 
 
-                h1 {
+                h2 {
                     text-decoration: none;
                     font-family: $principal-font;
                     color: $color-principal-text;

@@ -250,7 +250,6 @@ footer div p {
 /* MAIN CERVECERIA */
 /* COLORS */
 /* FONTS */
-/* MAIN CERVECERIA */
 .mainCerveceria {
   width: 100%;
   margin-top: 200px;
@@ -264,16 +263,16 @@ footer div p {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
 }
 .mainCerveceria section div div {
   width: 40%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-.mainCerveceria section div div h1 {
+.mainCerveceria section div div h2 {
   text-decoration: none;
   font-family: "Germania One", cursive;
   color: #ffffff;
@@ -290,5 +289,60 @@ footer div p {
 }
 
 /* FIN MAIN CERVECERIA */
+/* MAIN CERVECEZAS */
+/* COLORS */
+/* FONTS */
+.mainCervezas {
+  width: 100%;
+  margin-top: 200px;
+}
+.mainCervezas h1 {
+  text-decoration: none;
+  font-family: "Germania One", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.mainCervezas section {
+  width: 100%;
+  display: flex;
+  margin: 150px 0;
+}
+.mainCervezas section .beer-imagen {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainCervezas section .beer-imagen img {
+  width: 80%;
+}
+.mainCervezas section .beer-text-container {
+  width: 55%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+}
+.mainCervezas section .beer-text-container h2 {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 37px;
+  font-family: "Germania One", cursive;
+  padding: 0px 30px;
+}
+.mainCervezas section .beer-text-container p {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 30px;
+  margin-right: 70px;
+  text-align: justify;
+}
+
+/* MAIN EXPERIENCIAS */
+/* COLORS */
+/* FONTS */
 
 /*# sourceMappingURL=style.css.map */
