@@ -1,0 +1,71 @@
+/* MAIN TRABAJA */
+
+@import 'base/colors';
+@import 'base/fonts';
+@import 'base/mixin';
+
+.mainTrabaja {
+    width: 100%;
+    margin-top: 200px;
+
+    .workWithUs {
+        width: 100%;
+
+        h1 {
+            text-decoration: none;
+            font-family: $principal-font;
+            color: $color-principal-text;
+            font-size: 70px;
+            text-align: center;
+        }
+
+        .workImages-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            img {
+                width: 25%;
+                margin: 15px;
+                transition: 1s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    filter: brightness(1.25);
+                }
+            }
+        }
+
+    }
+
+    .formulario-container {
+        width: 100%;
+
+        h2 {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            font-family: 'Germania One', cursive;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+    }
+
+    .work2-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 75%;
+            margin: 20px;
+        }
+    }
+}

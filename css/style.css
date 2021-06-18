@@ -344,5 +344,179 @@ footer div p {
 /* MAIN EXPERIENCIAS */
 /* COLORS */
 /* FONTS */
+.mainExperiencias {
+  width: 100%;
+  margin-top: 200px;
+}
+.mainExperiencias h1 {
+  text-decoration: none;
+  font-family: "Germania One", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.mainExperiencias section {
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+}
+.mainExperiencias section div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainExperiencias section div div {
+  width: 50%;
+  margin: 0 75px;
+  display: block;
+}
+.mainExperiencias section div div h2 {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 37px;
+  font-family: "Germania One", cursive;
+  padding: 0px 30px;
+}
+.mainExperiencias section div div p {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 30px;
+  text-align: justify;
+}
+.mainExperiencias section div div img {
+  max-width: 700px;
+}
+
+/* MAIN EXPERIENCIAS */
+/* COLORS */
+/* FONTS */
+.mainVisitanos {
+  width: 100%;
+  margin-top: 200px;
+}
+.mainVisitanos h1 {
+  text-decoration: none;
+  font-family: "Germania One", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.mainVisitanos section {
+  width: 100%;
+  display: flex;
+  margin: 30px 0;
+}
+.mainVisitanos section div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainVisitanos section div div {
+  width: 50%;
+  margin: 0 75px;
+  display: block;
+}
+.mainVisitanos section div div h2 {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 37px;
+  font-family: "Germania One", cursive;
+  padding: 0px 30px;
+}
+.mainVisitanos section div div p {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 30px;
+  text-align: justify;
+}
+.mainVisitanos section div div img {
+  max-width: 700px;
+}
+
+/* MAIN GENERALES */
+/* COLORS */
+/* FONTS */
+.mainGenerales {
+  width: 100%;
+  margin-top: 200px;
+}
+.mainGenerales h1 {
+  text-decoration: none;
+  font-family: "Germania One", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.mainGenerales p {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0px 30px;
+  text-align: justify;
+}
+
+/* MAIN TRABAJA */
+/* COLORS */
+/* FONTS */
+.mainTrabaja {
+  width: 100%;
+  margin-top: 200px;
+}
+.mainTrabaja .workWithUs {
+  width: 100%;
+}
+.mainTrabaja .workWithUs h1 {
+  text-decoration: none;
+  font-family: "Germania One", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  text-align: center;
+}
+.mainTrabaja .workWithUs .workImages-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.mainTrabaja .workWithUs .workImages-container img {
+  width: 25%;
+  margin: 15px;
+  transition: 1s;
+}
+.mainTrabaja .workWithUs .workImages-container img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.25);
+}
+.mainTrabaja .formulario-container {
+  width: 100%;
+}
+.mainTrabaja .formulario-container h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Germania One", cursive;
+  text-align: center;
+  margin-top: 25px;
+}
+.mainTrabaja .formulario-container .form-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.mainTrabaja .work2-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainTrabaja .work2-container img {
+  width: 75%;
+  margin: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
