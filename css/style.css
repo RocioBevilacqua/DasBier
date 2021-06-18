@@ -66,6 +66,11 @@ header nav ul li a:hover {
   color: #daa520;
   font-size: 39px;
 }
+@media (max-width: 480px) {
+  header nav ul li a {
+    font-size: 20px;
+  }
+}
 header nav ul li a img {
   max-width: 200px;
   transition: 1s;
@@ -254,9 +259,19 @@ footer div p {
   width: 100%;
   margin-top: 200px;
 }
+@media (max-width: 480px) {
+  .mainCerveceria {
+    margin: 0 auto;
+  }
+}
 .mainCerveceria section {
   width: 100%;
-  margin: 100px 0;
+  margin: 50px 0;
+}
+@media (max-width: 480px) {
+  .mainCerveceria section {
+    margin: auto 0;
+  }
 }
 .mainCerveceria section div {
   width: 100%;
@@ -265,12 +280,23 @@ footer div p {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 480px) {
+  .mainCerveceria section div {
+    display: block;
+  }
+}
 .mainCerveceria section div div {
   width: 40%;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin: 0 auto;
+}
+@media (max-width: 480px) {
+  .mainCerveceria section div div {
+    width: 90%;
+  }
 }
 .mainCerveceria section div div h2 {
   text-decoration: none;
@@ -278,23 +304,44 @@ footer div p {
   color: #ffffff;
   font-size: 60px;
 }
+@media (max-width: 480px) {
+  .mainCerveceria section div div h2 {
+    font-size: 40px;
+    margin-top: 25px;
+  }
+}
 .mainCerveceria section div div p {
   text-decoration: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #daa520;
   font-size: 20px;
 }
+@media (max-width: 480px) {
+  .mainCerveceria section div div p {
+    font-size: 18px;
+  }
+}
 .mainCerveceria section div div img {
   min-width: 300px;
 }
+@media (max-width: 480px) {
+  .mainCerveceria section div div img {
+    width: 70%;
+  }
+}
 
 /* FIN MAIN CERVECERIA */
-/* MAIN CERVECEZAS */
+/* MAIN CERVEZAS */
 /* COLORS */
 /* FONTS */
 .mainCervezas {
   width: 100%;
   margin-top: 200px;
+}
+@media (max-width: 480px) {
+  .mainCervezas {
+    margin: 0 auto;
+  }
 }
 .mainCervezas h1 {
   text-decoration: none;
@@ -303,16 +350,33 @@ footer div p {
   font-size: 70px;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .mainCervezas h1 {
+    margin: 20px 0;
+    font-size: 45px;
+  }
+}
 .mainCervezas section {
   width: 100%;
   display: flex;
-  margin: 150px 0;
+  margin: 15px 0;
+}
+@media (max-width: 480px) {
+  .mainCervezas section {
+    display: block;
+  }
 }
 .mainCervezas section .beer-imagen {
   width: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 480px) {
+  .mainCervezas section .beer-imagen {
+    width: 95%;
+    margin-top: 35px;
+  }
 }
 .mainCervezas section .beer-imagen img {
   width: 80%;
@@ -324,12 +388,23 @@ footer div p {
   align-items: center;
   margin: auto 0;
 }
+@media (max-width: 480px) {
+  .mainCervezas section .beer-text-container {
+    width: 100%;
+  }
+}
 .mainCervezas section .beer-text-container h2 {
   text-decoration: none;
   color: goldenrod;
   font-size: 37px;
   font-family: "Germania One", cursive;
   padding: 0px 30px;
+}
+@media (max-width: 480px) {
+  .mainCervezas section .beer-text-container h2 {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 .mainCervezas section .beer-text-container p {
   text-decoration: none;
@@ -340,6 +415,13 @@ footer div p {
   margin-right: 70px;
   text-align: justify;
 }
+@media (max-width: 480px) {
+  .mainCervezas section .beer-text-container p {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0px;
+  }
+}
 
 /* MAIN EXPERIENCIAS */
 /* COLORS */
@@ -348,12 +430,23 @@ footer div p {
   width: 100%;
   margin-top: 200px;
 }
+@media (max-width: 480px) {
+  .mainExperiencias {
+    margin: 0 auto;
+  }
+}
 .mainExperiencias h1 {
   text-decoration: none;
   font-family: "Germania One", cursive;
   color: #ffffff;
   font-size: 70px;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .mainExperiencias h1 {
+    margin: 20px 0;
+    font-size: 45px;
+  }
 }
 .mainExperiencias section {
   width: 100%;
@@ -366,28 +459,58 @@ footer div p {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .mainExperiencias section div {
+    display: block;
+  }
+}
 .mainExperiencias section div div {
   width: 50%;
-  margin: 0 75px;
+  margin: 0 35px;
   display: block;
+  justify-content: center;
+}
+@media (max-width: 480px) {
+  .mainExperiencias section div div {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .mainExperiencias section div div h2 {
   text-decoration: none;
   color: goldenrod;
   font-size: 37px;
   font-family: "Germania One", cursive;
-  padding: 0px 30px;
+}
+@media (max-width: 480px) {
+  .mainExperiencias section div div h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+  }
 }
 .mainExperiencias section div div p {
   text-decoration: none;
   color: white;
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  padding: 0px 30px;
   text-align: justify;
+}
+@media (max-width: 480px) {
+  .mainExperiencias section div div p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
 }
 .mainExperiencias section div div img {
   max-width: 700px;
+}
+@media (max-width: 480px) {
+  .mainExperiencias section div div img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 /* MAIN EXPERIENCIAS */
@@ -397,12 +520,23 @@ footer div p {
   width: 100%;
   margin-top: 200px;
 }
+@media (max-width: 480px) {
+  .mainVisitanos {
+    margin: 0 auto;
+  }
+}
 .mainVisitanos h1 {
   text-decoration: none;
   font-family: "Germania One", cursive;
   color: #ffffff;
   font-size: 70px;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .mainVisitanos h1 {
+    margin: 20px 0;
+    font-size: 45px;
+  }
 }
 .mainVisitanos section {
   width: 100%;
@@ -415,10 +549,21 @@ footer div p {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .mainVisitanos section div {
+    display: block;
+  }
+}
 .mainVisitanos section div div {
   width: 50%;
   margin: 0 75px;
   display: block;
+}
+@media (max-width: 480px) {
+  .mainVisitanos section div div {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .mainVisitanos section div div h2 {
   text-decoration: none;
@@ -426,6 +571,13 @@ footer div p {
   font-size: 37px;
   font-family: "Germania One", cursive;
   padding: 0px 30px;
+}
+@media (max-width: 480px) {
+  .mainVisitanos section div div h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+  }
 }
 .mainVisitanos section div div p {
   text-decoration: none;
@@ -435,8 +587,21 @@ footer div p {
   padding: 0px 30px;
   text-align: justify;
 }
+@media (max-width: 480px) {
+  .mainVisitanos section div div p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+}
 .mainVisitanos section div div img {
   max-width: 700px;
+}
+@media (max-width: 480px) {
+  .mainVisitanos section div div img {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 /* MAIN GENERALES */
@@ -446,12 +611,24 @@ footer div p {
   width: 100%;
   margin-top: 200px;
 }
+@media (max-width: 480px) {
+  .mainGenerales {
+    margin: 15px auto;
+  }
+}
 .mainGenerales h1 {
   text-decoration: none;
   font-family: "Germania One", cursive;
   color: #ffffff;
   font-size: 70px;
   text-align: center;
+}
+@media (max-width: 480px) {
+  .mainGenerales h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+  }
 }
 .mainGenerales p {
   text-decoration: none;
@@ -461,6 +638,12 @@ footer div p {
   padding: 0px 30px;
   text-align: justify;
 }
+@media (max-width: 480px) {
+  .mainGenerales p {
+    font-size: 15px;
+    padding: 0 20px;
+  }
+}
 
 /* MAIN TRABAJA */
 /* COLORS */
@@ -468,6 +651,11 @@ footer div p {
 .mainTrabaja {
   width: 100%;
   margin-top: 200px;
+}
+@media (max-width: 480px) {
+  .mainTrabaja {
+    margin: 0 auto;
+  }
 }
 .mainTrabaja .workWithUs {
   width: 100%;
@@ -479,10 +667,22 @@ footer div p {
   font-size: 70px;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .mainTrabaja .workWithUs h1 {
+    margin: 20px 0;
+    font-size: 45px;
+  }
+}
 .mainTrabaja .workWithUs .workImages-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .mainTrabaja .workWithUs .workImages-container {
+    display: block;
+    justify-content: center;
+  }
 }
 .mainTrabaja .workWithUs .workImages-container img {
   width: 25%;
@@ -492,6 +692,13 @@ footer div p {
 .mainTrabaja .workWithUs .workImages-container img:hover {
   transform: scale(1.1);
   filter: brightness(1.25);
+}
+@media (max-width: 480px) {
+  .mainTrabaja .workWithUs .workImages-container img {
+    display: block;
+    width: 70%;
+    margin: 15px auto;
+  }
 }
 .mainTrabaja .formulario-container {
   width: 100%;
@@ -517,6 +724,11 @@ footer div p {
 .mainTrabaja .work2-container img {
   width: 75%;
   margin: 20px;
+}
+@media (max-width: 480px) {
+  .mainTrabaja .work2-container img {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,6 +8,10 @@
     width: 100%;
     margin-top: 200px;
 
+    @media (max-width: 480px) {
+        margin: 0 auto;              
+    }
+
     .workWithUs {
         width: 100%;
 
@@ -17,12 +21,22 @@
             color: $color-principal-text;
             font-size: 70px;
             text-align: center;
+
+            @media (max-width: 480px) {
+                margin: 20px 0; 
+                font-size: 45px;             
+            } 
         }
 
         .workImages-container {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+
+            @media (max-width: 480px) {
+                display: block;    
+                justify-content: center;           
+            }
 
             img {
                 width: 25%;
@@ -33,9 +47,14 @@
                     transform: scale(1.1);
                     filter: brightness(1.25);
                 }
+
+                @media (max-width: 480px) {
+                    display: block;      
+                    width: 70%;
+                    margin: 15px auto;        
+                }
             }
         }
-
     }
 
     .formulario-container {
@@ -66,6 +85,10 @@
         img {
             width: 75%;
             margin: 20px;
+
+            @media (max-width: 480px) {   
+                width: 90%;        
+            }
         }
     }
 }

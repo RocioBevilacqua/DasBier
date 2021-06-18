@@ -1,4 +1,4 @@
-/* MAIN CERVECEZAS */
+/* MAIN CERVEZAS */
 
 @import 'base/colors';
 @import 'base/fonts';
@@ -8,24 +8,42 @@
     width: 100%;
     margin-top: 200px;
 
+    @media (max-width: 480px) {
+        margin: 0 auto;              
+    } 
+
     h1 {
         text-decoration: none;
         font-family: $principal-font;
         color: $color-principal-text;
         font-size: 70px;
         text-align: center;
+
+        @media (max-width: 480px) {
+            margin: 20px 0; 
+            font-size: 45px;             
+        } 
     }
 
     section {
         width: 100%;
         display: flex;
-        margin: 150px 0;
+        margin: 15px 0;
+
+        @media (max-width: 480px) {
+            display: block;               
+        }
 
         .beer-imagen {
             width: 45%;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            @media (max-width: 480px) {
+                width: 95%;     
+                margin-top: 35px;      
+            }
 
             img {
                 width: 80%;
@@ -39,12 +57,21 @@
             align-items: center;
             margin: auto 0;
 
+            @media (max-width: 480px) {
+                width: 100%;         
+            }
+
             h2 {
                 text-decoration: none;
                 color: goldenrod;
                 font-size: 37px;
                 font-family: $principal-font;
                 padding: 0px 30px;
+
+                @media (max-width: 480px) {
+                    font-size: 30px;      
+                    text-align: center;     
+                }
             }
 
             p {
@@ -55,6 +82,12 @@
                 padding: 0px 30px;
                 margin-right: 70px;
                 text-align: justify;
+
+                @media (max-width: 480px) {
+                    font-size: 20px;  
+                    text-align: center;
+                    margin-right: 0px;      
+                }
             }
         }
     }

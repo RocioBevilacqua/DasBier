@@ -8,9 +8,17 @@
     width: 100%;
     margin-top: 200px;
 
+    @media (max-width: 480px) {
+        margin: 0 auto;              
+    } 
+
     section {
         width: 100%;
-        margin: 100px 0;
+        margin: 50px 0;
+
+        @media (max-width: 480px) {
+            margin: auto 0;              
+        } 
 
         div {
             width: 100%;
@@ -18,6 +26,10 @@
             align-items: center;
             display: flex;
             flex-wrap: wrap;
+
+            @media (max-width: 480px) {
+                display: block;               
+            }
             
             div {
                 width: 40%;
@@ -25,6 +37,11 @@
                 justify-content: center;
                 text-align: center;
                 align-items: center;
+                margin: 0 auto;
+
+                @media (max-width: 480px) {
+                    width: 90%;              
+                }
                 
 
                 h2 {
@@ -32,6 +49,11 @@
                     font-family: $principal-font;
                     color: $color-principal-text;
                     font-size: 60px;
+
+                    @media (max-width: 480px) {
+                        font-size: 40px;
+                        margin-top: 25px;             
+                    }
                 }
 
                 p {
@@ -39,10 +61,19 @@
                     font-family: $secondary-font;
                     color: $color-secondary-text;
                     font-size: 20px;
+
+                    @media (max-width: 480px) {
+                        font-size: 18px;
+                                     
+                    }
                 }
 
                 img {
                     min-width: 300px;
+
+                    @media (max-width: 480px) {
+                        width: 70%;             
+                    }
                 }
             }
         }
